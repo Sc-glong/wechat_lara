@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::post('/test/useguzze','UseGuzzeController@getDataFromTran');
+
+Route::get('/test/testxdebug','TestController@test11');

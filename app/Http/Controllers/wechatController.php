@@ -4,6 +4,7 @@
  * User: wenba
  * Date: 2020-03-04
  * Time: 17:01
+ * @method string valid()
  */
 
 namespace App\Http\Controllers;
@@ -18,6 +19,7 @@ class wechatController extends Controller
 	}
 
 	/**
+	 * @link [http://www.baidu.com]
 	 * 校验
 	 */
 	public function valid()
